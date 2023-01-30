@@ -73,6 +73,7 @@ function App() {
     fetchMovieHandler();
   }, [fetchMovieHandler]);
 
+  // sending POST request
   async function addMovieHandler(movie) {
     console.log(movie);
     // send HTTP request
